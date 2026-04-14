@@ -1,6 +1,4 @@
-
-# T-Transformer for Customer Churn
-
+# FT-Transformer for Customer Churn
 
 import copy
 import math
