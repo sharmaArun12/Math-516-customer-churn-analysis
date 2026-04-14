@@ -564,5 +564,5 @@ def runFtTransformerPipeline(csvPath: str) -> None:
 
 
 if __name__ == "__main__":
-    csvPath = "WA_Fn-UseC_-Telco-Customer-Churn.csv"
+    csvPath = "data/WA_Fn-UseC_-Telco-Customer-Churn.csv"
     runFtTransformerPipeline(csvPath)
