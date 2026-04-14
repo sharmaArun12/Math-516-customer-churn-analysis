@@ -93,6 +93,8 @@ The complete report is available here:
 
 [View Final Report](final_report.md)
 
+This report includes detailed methodology, model explanations, and FT-Transformer analysis.
+
 ## Requirements
 
 To run the Python code:
@@ -109,7 +111,9 @@ python3 src/python/ft_transformer.py
 python3 src/python/train_xgboost_telco_ordinal.py
 R
 source("src/R/train_logistic_telco.R")
-Notes
+
+NotesL:
 All code is reproducible using the dataset included in the repository.
 File paths are set relative to the project structure.
 The project compares both classical statistical models and modern deep learning approaches for tabular data.
+Results are reproducible by running the scripts provided in the `src/` directory.
