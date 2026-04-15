@@ -21,7 +21,7 @@ from xgboost import XGBClassifier
 # -----------------------------
 # 0) Load data
 # -----------------------------
-CSV_PATH = r"data\WA_Fn-UseC_-Telco-Customer-Churn.csv"
+CSV_PATH = "data/WA_Fn-UseC_-Telco-Customer-Churn.csv"
 TARGET = "Churn"
 
 df = pd.read_csv(CSV_PATH)
